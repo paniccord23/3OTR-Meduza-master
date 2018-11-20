@@ -208,3 +208,17 @@ section {
   font-family: "PF Regal", serif;
   font-weight: normal;
 }
+
+@media (max-width: 1024px) {
+  section {
+    width: 60vw;
+  }
+  .text-news__body {
+    flex-direction: column;
+  }
+  .text-news__body__list {
+    flex-direction: column;
+  }
+
+
+}
