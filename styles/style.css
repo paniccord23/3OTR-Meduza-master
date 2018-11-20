@@ -219,6 +219,9 @@ section {
   .text-news__body__list {
     flex-direction: column;
   }
+  .text-news__body__list, .text-news article {
+    width: 100%;
+  }
 
 
 }
