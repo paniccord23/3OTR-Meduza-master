@@ -219,12 +219,17 @@ section {
   .text-news__body__list {
     flex-direction: column;
   }
+  /* article.is-featured - когда так прописываем то имеем в виду именно какой-то конкретный артикл с классом из фичуред */
   /* ширину прописали в процентах чтобы занимал от контейнера */
   .text-news__body__list,
   .text-news article,
   .text-news article.is-featured {
     width: 100%;
   }
+  .text-news article.is-featured h3 {
+    font-size: 20px;
+  }
+
 
 
 }
