@@ -219,7 +219,10 @@ section {
   .text-news__body__list {
     flex-direction: column;
   }
-  .text-news__body__list, .text-news article {
+  /* ширину прописали в процентах чтобы занимал от контейнера */
+  .text-news__body__list,
+  .text-news article,
+  .text-news article.is-featured {
     width: 100%;
   }
 
